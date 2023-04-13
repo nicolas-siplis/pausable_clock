@@ -34,8 +34,7 @@
 //! ```rust
 //! # use std::sync::Arc;
 //! # use pausable_clock::PausableClock;
-//! # use std::time::{Duration};
-//! # use instant::Instant;
+//! # use instant::{Instant, Duration};
 //! # use std::thread;
 //!
 //! let clock = Arc::new(PausableClock::default());
