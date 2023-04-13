@@ -34,7 +34,8 @@
 //! ```rust
 //! # use std::sync::Arc;
 //! # use pausable_clock::PausableClock;
-//! # use std::time::{Duration, Instant};
+//! # use std::time::{Duration};
+//! # use instant::Instant;
 //! # use std::thread;
 //!
 //! let clock = Arc::new(PausableClock::default());
@@ -98,7 +99,8 @@ use pause_state::{PauseState, PauseStateTrait};
 use resumability_state::{
     ResumabilityState, ResumabilityStateTrait, RESUMING_REQUESTED_MASK,
 };
-use std::time::{Duration, Instant};
+use std::time::Duration;
+use instant::Instant;
 use unpausable_task_guard::UnpausableTaskGuard;
 use unresumable_task_guard::UnresumableTaskGuard;
 

@@ -1,6 +1,7 @@
 use std::convert::TryFrom;
 use std::ops::{Add, AddAssign, Sub, SubAssign};
-use std::time::{Duration, Instant};
+use std::time::{Duration};
+use instant::Instant;
 
 use crate::PausableClock;
 

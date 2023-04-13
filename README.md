@@ -14,7 +14,8 @@ This crate provides a clock that can be paused ... (duh?). The provided struct `
 use pausable_clock::PausableClock;
 use std::sync::Arc;
 use std::thread;
-use std::time::{Duration, Instant};
+use std::time::{Duration};
+use instant::Instant;
 
 let clock = Arc::new(PausableClock::default());
 

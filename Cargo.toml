@@ -11,6 +11,7 @@ keywords = ["clock", "time", "simulation", "concurrent"]
 categories = ["concurrency", "date-and-time"]
 
 [dependencies]
+instant = "0.1.12"
 
 [dev-dependencies]
 criterion = "0.3"
