@@ -1,6 +1,6 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 use pausable_clock::*;
-use std::time::Instant;
+use instant::Instant;
 
 fn now_benchmark(c: &mut Criterion) {
     let clock = PausableClock::default();

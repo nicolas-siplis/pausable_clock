@@ -98,8 +98,7 @@ use pause_state::{PauseState, PauseStateTrait};
 use resumability_state::{
     ResumabilityState, ResumabilityStateTrait, RESUMING_REQUESTED_MASK,
 };
-use std::time::Duration;
-use instant::Instant;
+use instant::{Instant, Duration};
 use unpausable_task_guard::UnpausableTaskGuard;
 use unresumable_task_guard::UnresumableTaskGuard;
 
