@@ -15,7 +15,6 @@ use pausable_clock::PausableClock;
 use std::sync::Arc;
 use std::thread;
 use instant::{Instant, Duration};
-use instant::Instant;
 
 let clock = Arc::new(PausableClock::default());
 
